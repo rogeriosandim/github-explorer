@@ -87,7 +87,6 @@ const Dashboard: React.FC = () => {
               src={repository.owner.avatar_url}
               alt={repository.owner.login}
             />
-
             <div>
               <strong>{repository.full_name}</strong>
               <p>{repository.description}</p>
